@@ -1,0 +1,279 @@
+
+/* heading style */
+.heading{
+    color: rgb(21 255 255); 
+    background-color: rgb(40 59 111 / 68%);
+    border: black 2px solid;
+    border-radius: 10px;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 5px;
+    margin-left: 220px;
+    height: 40px;
+    width: auto;
+    min-height: 4vh;
+
+}
+
+/* body styling */
+body{
+    background-color: #e9e5de;
+}
+
+/* menu bar styling */
+menu{
+    position: fixed;
+
+}
+
+
+/* side bar menu section class selection style */
+.B-one,.B-two,.B-three,.B-four{
+    height: 100px;
+    width: 200px;
+    background-color: cornsilk;
+    margin-bottom: 30px;
+    color: rgb(13, 71, 93);
+    border-radius: 8px;
+    box-shadow: inset 0 0 13px 5px rgb(19, 185, 207);
+    transition: ease-out 0.4s;
+    font-size: 25px;
+    outline: none;
+    font-weight: bold;
+    font-family: 'Indie Flower', cursive;
+    
+}
+
+/* button hovering style */
+button:hover{
+    cursor: pointer;
+    
+    color: rgb(255, 255, 255);
+    box-shadow: inset 200px 0 0 0 rgb(19, 185, 207);
+}
+
+
+
+.Side-bar{
+    position: fixed;
+}
+
+
+/* imaging styling */
+.image-div{
+    margin-left: 220px;
+}
+
+.araf-image{
+    height: 490px;
+    width: 490px;
+}
+
+/* introduction styling  */
+.info{
+    position: relative;
+    left: 750px;
+    bottom: 530px;
+    text-align: left;
+    font-size: 60px;
+    font-family: 'Noto Sans JP', sans-serif;
+    
+}
+
+/* hudai horizontal line styling */
+hr{
+    position: relative;
+    bottom: 400px;
+}
+
+/* text container section */
+.text-container p:nth-child(1){
+	font-family: calibri;
+	font-weight:bold;
+	color:#6d6d6d;
+	font-size:22px;
+}
+.text-container p:nth-child(2){
+	font-family:calibri;
+	font-weight:bold;
+	letter-spacing:1px;
+	color:#1a1a1a;
+	font-size:60px;
+	
+}
+.text-container p:nth-child(3){
+	font-family: myriad pro regular;
+	color: #403e3e;
+	font-size:30px;
+	line-height:30px;
+}
+ 
+.text-container p{
+	
+	line-height:0px;
+}
+.text-container button{
+	width:130px;
+	height:42px;
+	border-radius:10px;
+	font-family:calibri;
+	font-weight:bold;
+	font-size: 14px;
+	outline:none;
+	margin:0px 10px;
+	
+}
+.text-container{
+	position: absolute;
+	left:20%;
+	top:100%;
+	
+}
+.hireButton{
+	border:2px solid #373636;
+	color:#373636;
+	background-color:transparent;
+	
+}
+.download{
+	background-color:#0B0B0B;
+	color:#fff;	
+	border:none;
+}
+
+/* button effect styling------------- */
+button:active{
+	transform:scale(1.1);
+}
+
+
+/* about section styling----------------- */
+.about-container{
+	width:70%;
+	height:330px;
+	background:#ddd5d5;
+	border-radius:20px;
+	box-shadow:2px 2px 12px rgba(0,0,0,0.2);
+	display: flex;
+	margin: 8%  auto 20px auto;
+	position: relative;
+	justify-content:space-evenly;
+	align-items: center;
+}
+.about-container img{
+	height:250px;
+}
+.about-text{
+	width:500px;
+} 
+.about-text p:nth-child(1){
+	color:#928686;
+	font-family: myriad pro;
+	font-weight:bold;
+	font-size:23px;
+	line-height:0px;
+}
+.about-text p:nth-child(2){
+	color:#3e3d3d;
+	font-size:13px;
+	font-family: myriad pro;
+	font-weight:bold;
+	line-height:5px;
+}
+.about-text p:nth-child(3),.about-text p:nth-child(4){
+	color:#7e7d7d;
+	font-family:calibri;
+	font-size:16px;
+}
+
+
+/* contact design section----------------------- */
+ 
+.contact-me{
+	width: 100%;
+	height:280px;
+	background-size:cover;
+	background-image: url("./download.png");
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	
+}
+.contact-me p{
+	color:#FFFFFF;
+	font-size: 30px;
+	font-family: calibri;
+	font-weight:bold;
+	
+}
+.contact-me button{
+	width:200px;
+	height:40px;
+	background-color: #FFFFFF;
+	border:none;
+	outline:none;
+	font-size:14px;
+	font-weight:bold;
+}
+
+/* footer section------------------------ */
+
+footer p{
+	font-family: calibri;
+}
+footer p:nth-child(1){
+	font-size: 30px;
+	font-weight:bold;
+	color:#191919;
+	line-height:10px;
+}
+footer p:nth-child(2){
+	font-size: 16px;
+	color:#7e7d7d;
+	width:600px;
+	text-align: center;
+}
+footer{
+	height:300px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+}
+.social-icons a{
+	width:40px;
+	height:40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color:#c4c0c0;
+	margin:20px 10px;
+}
+.social-icons{
+	display: flex;
+	
+}
+.social-icons i,.social i{
+	color:#000000;
+}
+.social-icons a:hover{
+	background-color:#000000;
+	box-shadow:2px 2px 12px rgba(0,0,0,0.2);
+	transition:all ease 0.8s;
+}
+.social-icons a:hover i,
+.social a:hover i{
+	color:#FFFFFF;
+	transition:all ease 0.5s;
+}
+ 
+.copyright{
+	color:#565555;
+	font-size: 12px;
+	position: absolute;
+	left:50%;
+	bottom:10px;
+	transform: translateX(-50%);
+}
